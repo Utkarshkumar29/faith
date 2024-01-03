@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faArrowLeftLong, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
-export default async function HomePage() {
+export default function HomePage() {
   let data = [];
 
   try {

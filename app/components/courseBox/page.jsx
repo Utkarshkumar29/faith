@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import fs from 'fs'
 import course from '../../styles/course.module.css'
 
-export default async function CoursePage() {
+export default function CoursePage() {
   let data = [];
 
   try {
