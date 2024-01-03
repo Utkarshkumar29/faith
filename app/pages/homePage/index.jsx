@@ -73,7 +73,7 @@ export default function HomePage() {
         <div className={custom.slidercontainer}>
           <FontAwesomeIcon icon={faArrowLeftLong} width={40}/>
           <div className={custom.slidertextwrapper}>
-            <p className={custom.testimonial}>"{data.testimonial.text}"</p>
+          <p className={custom.testimonial}>&ldquo;{data.testimonial.text}&rdquo;</p>
             
             <div className={custom.userinfo}>
               <Image src={user} alt='Erro' width={40} style={{borderRadius:"50%"}}/>

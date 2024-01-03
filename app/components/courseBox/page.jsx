@@ -17,7 +17,7 @@ export default function CoursePage() {
     <div className={course.container}>
         <p className={course.title}>Course fees</p>
         <p className={course.amount}>₹{data.course.fee.amount}</p>
-        <p className={course.included}>What's included</p>
+        <p className={course.included}>What&apos;s included</p>
         <p className={course.icons}><FontAwesomeIcon icon={faTv} width={20}/>5 on demand videos</p>
         <p className={course.icons}><FontAwesomeIcon icon={faTv} width={20}/>2 livestream sessions</p>
         <p className={course.icons}><FontAwesomeIcon icon={faComments} width={20}/>Live Q&A sessions with Nityanand Charan Das</p>
