@@ -1,0 +1,150 @@
+.container{
+    max-width: 2600px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.wrapper{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imageWrapper{
+    width: 1200px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}   
+
+.shadowOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), transparent);
+    pointer-events: none;
+  }
+
+.name{
+    position: absolute;
+    bottom: 170px;
+    font-size: 25px;
+    color: white;
+    padding: 30px;
+}
+
+.course{
+    position: absolute;
+    bottom: 10px;
+    font-size: 35px;
+    color: white;
+    padding: 30px;
+    white-space: normal;
+    width: 50%;
+}
+
+.link{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 70%;
+}
+
+.link p{
+    padding: 20px;   
+}
+
+.line::after{
+    content: "";
+    border-bottom: 4px solid purple;
+    width: 120px; 
+    display: block;
+    position: absolute;
+    left: 210px;
+}
+
+.textcontainer{
+    max-width: 500px;
+    width: 100%;
+    position: relative;   
+    left: -300px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.textheading{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.text{
+    font-weight: 400;
+}
+
+.aboutcontainer{
+    max-width: 1100px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    position: relative;   
+    margin-top: 30px;
+}
+
+.textwrapper{
+    display: flex;
+    gap: 30px;
+    padding-left: 30px;
+}
+
+.iconcontainer{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.slidercontainer{
+    padding: 30px;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.slidertextwrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+
+.testimonial{
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.userinfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}

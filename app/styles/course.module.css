@@ -1,0 +1,39 @@
+.container{
+    width: 400px;
+    height: 350px;
+    background-color: plum;
+    padding: 30px;
+    position: absolute;
+    top: 300px;
+    right: 220px;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.amount{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.included{
+    font-size: 20px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.btn{
+    background-color: purple;
+    padding: 10px;
+    width: 100%;
+    border-radius: 40px;
+    margin-top: 15px;
+    color: white;
+}
